@@ -21,10 +21,10 @@ In today's digital age, phishing attacks have become a major threat to individua
 Clustering, which is an unsupervised machine learning technique, offers a valuable way to analyze and group URLs based on their unique characteristics without requiring pre-labeled data. By applying X method...
 
 
-## About-The-Data
+# About-The-Data
 The Phishing URL Dataset consists of URLs labeled as either phishing or legitimate. Phishing URLs are designed to deceive users into providing sensitive information, such as usernames and passwords, often mimicking legitimate sites.
 
-## Methods
+# Methods
 
 # Data-Preprocessing
 
