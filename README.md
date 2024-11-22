@@ -50,7 +50,7 @@ print(phiusiil_phishing_url_website.variables)
 ```
 
 # Feature-Selection
-![correlation](output.png)
+![correlation](/workspaces/STAT-576-Phishing-Final-Project/output.png)
 
 From the correlation matrix we can get the following reduction to get our outputs.
 
