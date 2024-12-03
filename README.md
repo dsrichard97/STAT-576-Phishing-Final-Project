@@ -13,7 +13,7 @@
 
 
 # Introduction
-A final project authored by Cory Suzuki, Nathaniel Talampas, and Richard Diaz DeLeon for Dr. Seungjoon Lee's Unsupervised Learning class. Here we perform dimensionality reduction techniques for feature extraction and utilize clustering methods to analyze insightful trends on the classification of phishing and scam emails.
+A final project authored by Cory Suzuki, Nathaniel Talampas, and Richard Diaz DeLeon for Dr. Seungjoon Lee's Unsupervised Learning class. Here, we perform dimensionality reduction techniques for feature extraction and utilize clustering methods to explicate insightful trends on the classification of phishing urls.
 
 # Motivation
 In today's digital age, phishing attacks have become a major threat to individuals and organizations alike. These attacks exploit users' trust, resulting in significant financial losses and breaches of sensitive information. To address this widespread issue, it is crucial to develop effective methods for identifying and mitigating phishing attempts.
@@ -24,45 +24,40 @@ In today's digital age, phishing attacks have become a major threat to individua
 The Phishing URL Dataset consists of URLs labeled as either phishing or legitimate. Phishing URLs are designed to deceive users into providing sensitive information, such as usernames and passwords, often mimicking legitimate sites. Data can be found at the following link: https://archive.ics.uci.edu/dataset/967/phiusiil+phishing+url+dataset
 
 ## Methods
-- FEATURE SELECTION
 - FEATURE SELECTION BY CORRELATION
-- DIMENSIONALITY REDUCTION
-- LINEAR TECHNIQUES
-- NON-LINEAR TEHCHNIQUES
-
+- PRINCIPAL COMPONENT ANALYSIS (PCA)
+- MULTIDIMENSIONAL SCALING (MDS)
+- ISOMAP
+- LOCALLY LINEAR EMBEDDING (LLE)
+- T-STOCHASTIC NEIGHBOR EMBEDDING (T-SNE)
+- K-MEANS CLUSTERING
+- MINIBATCH K-MEANS CLUSTERING
+- AGGLOMERATIVE (SINGLE LINKAGE) CLUSTERING
+- DBSCAN
+  
 # Data-Preprocessing
-From UCI repo we can get the following dtaa by applying python code to fetch the data
-```python
-from ucimlrepo import fetch_ucirepo 
-
-# fetch dataset 
-phiusiil_phishing_url_website = fetch_ucirepo(id=967) 
-
-# data (as pandas dataframes) 
-X = phiusiil_phishing_url_website.data.features 
-y = phiusiil_phishing_url_website.data.targets 
-
-# metadata 
-print(phiusiil_phishing_url_website.metadata) 
-
-# variable information 
-print(phiusiil_phishing_url_website.variables) 
-```
+The data was retrieved directly from the UCI ML Repository using the Python code below. Data Preprocessing included one-hot encoding binary features, label encoding the target feature, standardizing the data, removing any duplicates or missing values, checking for target feature class balances, and ensuring all features are either numerical or categorical.
 
 # Feature-Selection
-![correlation](/workspaces/STAT-576-Phishing-Final-Project/output.png)
+The data was then modified by using feature selection to remove any redundant features and information. The algorithm of choice was feature selection by correlation since many features were too highly correlated with each other according to the EDA performed in our work. Our threshold choice was 0.85 in order to eliminate any features that had correlations too close to 1.00.
 
-From the correlation matrix we can get the following reduction to get our outputs.
+# Feature Extraction
+This step was necessary to preserve the latent information from the remaining features in the data. We implemented the above linear and nonlinear dimensionality reduction techniques/manifold learning algorithms to extract the most important preserved dimensions. Due to our investigations, we concluded that t-SNE in the second and third dimensions produced promising results as it best captured the nonlinear nature of the data.
+
+# Clustering
+An assortment of clustering methods were employed to dynamically classify the data into two classes, with 1=phishing url and 0=not phishing url. Out of the above methods, K-Means and MiniBatch K-Means provided the most promising Adjusted Rand Index (ARI) accuracy. 
+
+# Future Work
+To improve this project and provide a more robust analysis of the data, we consider the following recommendations:
+-Consider deep-learning methods and semi-supervised learning algorithms.
+-Concatenate more current data or real-time data to analyze current trends.
+-Treat the distance metric as a possible hyperparameter to tune, as this project only assumed the usage of the Euclidian metric (i.e: use Mahalanobis, Manhattan, etc.).
+
+For further analysis and information about this project, refer to the report, Python notebooks, and powerpoint slides.
+
+Updated as of 12/2/24 by Cory Suzuki
 
 
-# Outputs
-![picture](output2.png)
-
-![picture](output3.png)
-
-![picture](lle.png)
-
-![picture](iso1.png)
 
 
 
