@@ -47,11 +47,11 @@ This step was necessary to preserve the latent information from the remaining fe
 # Clustering
 An assortment of clustering methods were employed to dynamically classify the data into two classes, with 1=phishing url and 0=not phishing url. Out of the above methods, K-Means and MiniBatch K-Means provided the most promising Adjusted Rand Index (ARI) accuracy. 
 
-# Future Work
+## Future Work
 To improve this project and provide a more robust analysis of the data, we consider the following recommendations:
--Consider deep-learning methods and semi-supervised learning algorithms.
--Concatenate more current data or real-time data to analyze current trends.
--Treat the distance metric as a possible hyperparameter to tune, as this project only assumed the usage of the Euclidian metric (i.e: use Mahalanobis, Manhattan, etc.).
+- Consider deep-learning methods and semi-supervised learning algorithms.
+- Concatenate more current data or real-time data to analyze current trends.
+- Treat the distance metric as a possible hyperparameter to tune, as this project only assumed the usage of the Euclidian metric (i.e: use Mahalanobis, Manhattan, etc.).
 
 For further analysis and information about this project, refer to the report, Python notebooks, and powerpoint slides.
 
