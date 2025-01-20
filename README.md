@@ -49,7 +49,7 @@ To improve this project and provide a more robust analysis of the data, we consi
 - Treat the distance metric as a possible hyperparameter to tune, as this project only assumed the usage of the Euclidian metric (i.e: use Mahalanobis, Manhattan, etc.).
 
 For further analysis and information about this project please click on the following links below
-- [Python Code](URL)
+- [Documentation](https://github.com/dsrichard97/STAT-576-Phishing-Final-Project/blob/main/STAT_576_PROJECT_finaldraft.pdf)
 - [Powerpoint](https://github.com/dsrichard97/STAT-576-Phishing-Final-Project/blob/main/STAT%20576%20PRESENTATION.pdf)
 
 
