@@ -50,7 +50,7 @@ To improve this project and provide a more robust analysis of the data, we consi
 
 For further analysis and information about this project please click on the following links below
 - [Python Code](URL)
-- [Powerpoint](URL)
+- [Powerpoint](https://github.com/dsrichard97/STAT-576-Phishing-Final-Project/blob/main/STAT%20576%20PRESENTATION.pdf)
 
 
 Updated as of 01/19/2025 by Richard DiazDeLeon
