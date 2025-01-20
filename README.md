@@ -48,7 +48,10 @@ To improve this project and provide a more robust analysis of the data, we consi
 - Concatenate more current data or real-time data to analyze current trends.
 - Treat the distance metric as a possible hyperparameter to tune, as this project only assumed the usage of the Euclidian metric (i.e: use Mahalanobis, Manhattan, etc.).
 
-For further analysis and information about this project, refer to the report, Python notebooks, and powerpoint slides.
+For further analysis and information about this project please click on the following links below
+- [Python Code](URL)
+- [Powerpoint](URL)
+
 
 Updated as of 01/19/2025 by Richard DiazDeLeon
 
