@@ -55,7 +55,7 @@ To improve this project and provide a more robust analysis of the data, we consi
 
 For further analysis and information about this project, refer to the report, Python notebooks, and powerpoint slides.
 
-Updated as of 12/2/24 by Cory Suzuki
+Updated as of 01/19/2025 by Richard DiazDeLeon
 
 
 
