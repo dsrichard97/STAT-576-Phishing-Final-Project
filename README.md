@@ -13,6 +13,7 @@
 
 
 ### Add banner here
+![Alt Text](path/to/image.jpg)
 
 # Motivation
 In today's digital age, phishing attacks have become a major threat to individuals and organizations alike. These attacks exploit users' trust, resulting in significant financial losses and breaches of sensitive information. To address this widespread issue, it is crucial to develop effective methods for identifying and mitigating phishing attempts.
