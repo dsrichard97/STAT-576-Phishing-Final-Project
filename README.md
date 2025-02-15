@@ -2,25 +2,25 @@
 ![Alt Text](bannerm.png)
 
 ## Table of Contents
-- [Introduction](##Introduction)
-- [About the Data](##About-The-Data)
-- [Methodology](##Methods)
+- [Introduction](#Introduction)
+- [About the Data](#About-The-Data)
+- [Methodology](#Methods)
   - [Data Preprocessing](#Data-Preprocessing)
   - [Feature Selection](#Feature-Selection)
   - [Clustering](#Clustering)
-- [Future Work](##Future-Work)
+- [Future Work](#Future-Work)
 
-## Introduction
+# Introduction
 In today's digital age, phishing attacks have become a major threat to individuals and organizations alike. These attacks exploit users' trust, resulting in significant financial losses and breaches of sensitive information. To address this widespread issue, it is crucial to develop effective methods for identifying and mitigating phishing attempts.
 
 
 
-## About-The-Data
+# About-The-Data
 ![Alt Text](aboutdata.png)
 
 The Phishing URL Dataset consists of URLs labeled as either phishing or legitimate. Phishing URLs are designed to deceive users into providing sensitive information, such as usernames and passwords, often mimicking legitimate sites. Data can be found at the following link: https://archive.ics.uci.edu/dataset/967/phiusiil+phishing+url+dataset
 
-## Methods
+# Methods
 - ISOMAP
 - LOCALLY LINEAR EMBEDDING (LLE)
 - T-STOCHASTIC NEIGHBOR EMBEDDING (T-SNE)
@@ -41,7 +41,7 @@ An assortment of clustering methods were employed to dynamically classify the da
 
 ![Alt Text](finals.png)
 
-## Future-Work
+# Future-Work
 To improve this project and provide a more robust analysis of the data, we consider the following recommendations:
 - Consider deep-learning methods and semi-supervised learning algorithms.
 - Concatenate more current data or real-time data to analyze current trends.
@@ -53,7 +53,7 @@ For further analysis and information about this project please click on the foll
 - [Python Code](https://github.com/dsrichard97/STAT-576-Phishing-Final-Project/blob/main/Phishing_final_project.ipynb)
 
 
-Updated as of 01/19/2025 by Richard DiazDeLeon
+Updated as of 02/15/2025 by Richard Diaz
 
 
 
