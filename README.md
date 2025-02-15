@@ -1,4 +1,3 @@
-# STAT-576 Phishing Final Project
 ![Alt Text](bannerm.png)
 
 ## Table of Contents
@@ -16,7 +15,7 @@ In today's digital age, phishing attacks have become a major threat to individua
 
 
 # About-The-Data
-![Alt Text](aboutdata.png){width=800}
+![Alt Text](aboutdata.png)
 
 The Phishing URL Dataset consists of URLs labeled as either phishing or legitimate. Phishing URLs are designed to deceive users into providing sensitive information, such as usernames and passwords, often mimicking legitimate sites. Data can be found at the following link: https://archive.ics.uci.edu/dataset/967/phiusiil+phishing+url+dataset
 
