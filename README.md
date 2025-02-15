@@ -2,13 +2,13 @@
 ![Alt Text](bannerm.png)
 
 ## Table of Contents
-- [Introduction](## Introduction)
-- [About the Data](## About-The-Data)
-- [Methodology](## Methods)
-  - [Data Preprocessing](# Data-Preprocessing)
-  - [Feature Selection](# Feature-Selection)
-  - [Clustering](# Clustering)
-- [Future Work](## Future Work)
+- [Introduction](##Introduction)
+- [About the Data](##About-The-Data)
+- [Methodology](##Methods)
+  - [Data Preprocessing](#Data-Preprocessing)
+  - [Feature Selection](#Feature-Selection)
+  - [Clustering](#Clustering)
+- [Future Work](##Future-Work)
 
 ## Introduction
 In today's digital age, phishing attacks have become a major threat to individuals and organizations alike. These attacks exploit users' trust, resulting in significant financial losses and breaches of sensitive information. To address this widespread issue, it is crucial to develop effective methods for identifying and mitigating phishing attempts.
@@ -41,7 +41,7 @@ An assortment of clustering methods were employed to dynamically classify the da
 
 ![Alt Text](finals.png)
 
-## Future Work
+## Future-Work
 To improve this project and provide a more robust analysis of the data, we consider the following recommendations:
 - Consider deep-learning methods and semi-supervised learning algorithms.
 - Concatenate more current data or real-time data to analyze current trends.
